@@ -1,0 +1,42 @@
+head, header {
+background-color: #B5BCB3;   
+}
+
+main>section{
+background-color: #5D675B;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 2rem;
+}
+
+header>nav>ul>li>a {
+    border: 2px double;
+    border-radius: 50px;
+    padding: .5rem 1.5rem;
+    background-color: #D5D9D4;
+    color: #5D675B;
+    font-weight: 800;
+}
+
+header>nav>ul>li {
+    display: inline-block;
+}
+
+   
+footer {
+    background-color: black;
+    color:#B5BCB3;
+
+}
+
+
+ 
+
+
+main>section>img { 
+    width: 300px;
+}
+
+
