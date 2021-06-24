@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FP | BWT | CONTACT</title>
+    <script src="https://kit.fontawesome.com/b93cc77207.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 <body>
-    <footer>contact</footer>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <div class="form_group">
+                <label for="nameInput">Name</label>
+                <input type="text" id="nameInput" />
+            </div>
+
+            <div class="form_group">
+                <label for="emailInput">Email</label>
+                <input type="email" id="emailInput" />
+            </div>
+
+            <div class="form_group">
+                <label for="emailInput">Phone</label>
+                <input type="email" id="emailInput" />
+            </div>
+
+            <div class="form_group">
+                <label for="subjectInput">Subject</label>
+                <select id="subjectInput">
+                    <option value="inquiry">Question</option>
+                    <option value="question">Concern</option>
+                    <option value="question">Showin' Love</option>
+                    <option value="question">Feedback</option>
+                </select>
+            </div>
+
+            <div class="form_group">
+                <label for="messageInput">Message</label>
+                <textarea id="messageInput" placeholder="Please use this space to leave a short detailed message, drop some love or show some support" rows="8" cols="30"></textarea>
+            </div>
+
+            <!-- <button type="submit">Submit</button> -->
+            <input type="submit" value="Submit" />
+        </form>
+    </main>
+    <footer></footer>
 </body>
 </html>
